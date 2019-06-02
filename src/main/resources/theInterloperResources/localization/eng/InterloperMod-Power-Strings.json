@@ -1,0 +1,10 @@
+{
+"theInterloper:CodeReviewPower": {
+        "NAME": "Code Review",
+        "DESCRIPTIONS": ["You will apply #b", " debuff", " debuffs", " to all enemies based on their intent."]
+},
+"theInterloper:RarePower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["At the start of your turn, TOUCH #b", " enemy." , " enemies."]
+}
+}

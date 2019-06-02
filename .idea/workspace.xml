@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5b20641-3a8c-490b-8ff3-757a5c00502c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/theInterloper/cards/AbstractInterloperCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theInterloper/cards/Exploit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theInterloper/variables/InterDex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theInterloper/variables/InterInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/CODE_BACKUP/PlaceholderRelic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/CODE_BACKUP/PlaceholderRelic2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/InterloperMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/InterloperMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/actions/UncommonPowerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/actions/UncommonPowerAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/cards/AbstractDefaultCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/cards/BruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/cards/BruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultCommonPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/cards/CodeReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultSecondMagicNumberSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultSecondMagicNumberSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/cards/Obfuscate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/cards/Obfuscate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/cards/cardTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/cards/cardTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/characters/TheInterloper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/characters/TheInterloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/modules/BattleModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/modules/BattleModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/modules/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/modules/Pattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/modules/PlayerIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/modules/PlayerIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/modules/Projectile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/modules/Projectile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/patches/relics/BottledPlaceholderField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/patches/relics/BottledPlaceholderField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/powers/CommonPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/powers/CodeReviewPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/powers/RarePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/powers/RarePower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/relics/BottledPlaceholderRelic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/relics/RefactoringTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/relics/WiringKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/relics/WiringKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/variables/DefaultSecondMagicNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theInterloper/variables/InterStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theInterloper/variables/InterStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/bg_attack_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/bg_attack_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/bg_attack_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/bg_power_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/bg_power_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/bg_power_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/bg_skill_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/bg_skill_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/bg_skill_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/bigCards.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/1024/card_default_gray_orb.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/512/bg_attack_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/512/bg_attack_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/512/bg_attack_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/512/bg_power_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/512/bg_power_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/512/bg_power_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/512/bg_skill_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/512/bg_skill_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/512/bg_skill_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/Spriter/object1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/Spriter/object1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/Spriter/object3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/Spriter/object3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/Spriter/theDefaultAnimation.autosave.scml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/Spriter/theDefaultAnimation.autosave.scml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/Spriter/theDefaultAnimation.scml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/Spriter/theDefaultAnimation.scml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/skeleton.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/skeleton.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/skeleton.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/skeleton.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/char/defaultCharacter/skeleton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/relics/BottledPlaceholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/relics/outline/BottledPlaceholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Card-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Potion-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Potion-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Power-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Power-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Relic-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Relic-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/InterloperMod$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/InterloperMod$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/InterloperMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/InterloperMod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/actions/UncommonPowerAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/actions/UncommonPowerAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/cards/AbstractDefaultCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/cards/BruteForce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/cards/BruteForce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/cards/DefaultCommonPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/cards/DefaultSecondMagicNumberSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/cards/DefaultSecondMagicNumberSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/cards/Obfuscate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/cards/Obfuscate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/cards/cardTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/cards/cardTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/characters/TheInterloper$Enums.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/characters/TheInterloper$Enums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/characters/TheInterloper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/characters/TheInterloper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/modules/BattleModule$BlockKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/modules/BattleModule$BlockKeys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/modules/BattleModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/modules/BattleModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/modules/Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/modules/Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/modules/PlayerIndicator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/modules/PlayerIndicator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/modules/Projectile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/modules/Projectile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/patches/relics/BottledPlaceholderField$MakeStatEquivalentCopy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/patches/relics/BottledPlaceholderField$MakeStatEquivalentCopy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/patches/relics/BottledPlaceholderField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/patches/relics/BottledPlaceholderField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/potions/PlaceholderPotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/powers/CommonPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/relics/BottledPlaceholderRelic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/relics/DefaultClickableRelic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/relics/PlaceholderRelic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/relics/PlaceholderRelic2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/ui/Overlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/ui/Overlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/variables/DefaultSecondMagicNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloper/variables/InterStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloper/variables/InterStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/bg_attack_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/bg_attack_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/bg_attack_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/bg_power_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/bg_power_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/bg_power_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/bg_skill_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/bg_skill_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/bg_skill_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/bigCards.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/1024/card_default_gray_orb.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/512/bg_attack_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/512/bg_attack_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/512/bg_attack_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/512/bg_power_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/512/bg_power_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/512/bg_power_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/512/bg_skill_default_gray — kopia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/512/bg_skill_default_gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/512/bg_skill_default_gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/Spriter/object1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/Spriter/object1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/Spriter/object3.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/Spriter/object3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/Spriter/theDefaultAnimation.autosave.scml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/Spriter/theDefaultAnimation.autosave.scml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/Spriter/theDefaultAnimation.scml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/Spriter/theDefaultAnimation.scml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/skeleton.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/skeleton.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/skeleton.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/skeleton.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/char/defaultCharacter/skeleton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/relics/BottledPlaceholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/images/relics/outline/BottledPlaceholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/localization/eng/InterloperMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/localization/eng/InterloperMod-Card-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/localization/eng/InterloperMod-Potion-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/localization/eng/InterloperMod-Potion-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/localization/eng/InterloperMod-Power-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/localization/eng/InterloperMod-Power-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theInterloperResources/localization/eng/InterloperMod-Relic-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theInterloperResources/localization/eng/InterloperMod-Relic-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/theInterloper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/theInterloper.jar" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DefaultMod" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/ui/Overlay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2142">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/characters/TheInterloper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/cards/Defend.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/cards/AbstractInterloperCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Steam/steamapps/workshop/content/646570/1605833019/BaseMod.jar!/basemod/abstracts/CustomCard.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2142">
+              <caret line="162" column="29" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/cards/Strike.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Steam/steamapps/workshop/content/646570/1605833019/BaseMod.jar!/basemod/BaseMod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2771">
+              <caret line="1741" column="48" selection-start-line="1741" selection-start-column="16" selection-end-line="1741" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/InterloperMod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="505" column="52" selection-start-line="505" selection-start-column="52" selection-end-line="505" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/actions/TargetAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="84" column="65" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/heropowers/AbstractHeropower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1300#1301#0" expanded="true" />
+                <element signature="e#1355#1356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bg_neutral_default_gray</find>
+      <find>POTION_T_LIQUID</find>
+      <find>liquidImg</find>
+      <find>PLACEHOLDER_COLOR</find>
+      <find>angle</find>
+      <find>COLOR_BROWN</find>
+      <find>marble</find>
+      <find>DEFAULT_GRAY_COLOR</find>
+      <find>@Spire</find>
+      <find>outlineImg</find>
+      <find>TEXT</find>
+      <find>label</find>
+      <find>render(</find>
+      <find>renderFontCenteredWidth</find>
+      <find>TipHelper.renderGenericTip</find>
+      <find>this.potion.isThrown</find>
+      <find>targetMode</find>
+      <find>currentHealth</find>
+      <find>LIBRARY_COLOR</find>
+      <find>this.targetMode</find>
+      <find>r.</find>
+      <find>updateTargetMode</find>
+      <find>Energ</find>
+      <find>turn</find>
+      <find>plusStr</find>
+      <find>play</find>
+      <find>use</find>
+      <find>colorCardEnergyOrbAtlasRegionMap</find>
+      <find>loadCardImage</find>
+      <find>[]</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>theInterloper</replace>
+      <replace />
+      <replace>ORB_SCALE</replace>
+      <replace>current_y</replace>
+      <replace>titleOffset</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Projects\theInterloper\src\main\resources\theInterloperResources\localization\eng</dir>
+      <dir>D:\Projects\theInterloper\</dir>
+      <dir>C:\Program Files (x86)\Steam\steamapps\common\SlayTheSpire\desktop-1.0.jar</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/Exploit3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/Exploit2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/variables/ExploitDmg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/variables/InterStr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/variables/InterInt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/variables/InterDex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/modules/Projectile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/modules/Pattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/modules/PlayerIndicator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/modules/BattleModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/relics/WiringKit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/powers/CodeReviewPower.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Power-Strings.json" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/AbstractDefaultCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/cardTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/AbstractInterlooperCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/patches/relics/BottledPlaceholderField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/relics/RefactoringTask.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/Obfuscate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/BruteForce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/CodeReview.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultAttackWithVariable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultRareAttack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultRarePower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultRareSkill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultSecondMagicNumberSkill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultUncommonAttack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultUncommonPower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultUncommonSkill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/Exploit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/OrbSkill.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Relic-Strings.json" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/relics/StoneHearth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/ui/EnergyOrb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/LightningStorm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/potions/GMonsterDew.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Potion-Strings.json" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/potions/LightningMarble.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/patches/PotIsToolField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/patches/ToolTooltipTextPatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/patches/ToolTooltipPatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/patches/HeropowerField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/actions/TargetAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Card-Strings.json" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/Defend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/cards/AbstractInterloperCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/heropowers/AbstractHeropower.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/ui/Overlay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/characters/TheInterloper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/theInterloper/InterloperMod.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="InterloperMod" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="InterloperMod" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="InterloperMod" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="154" />
+    <option name="y" value="93" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="characters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="heropowers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="patches" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="potions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="powers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="relics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloperResources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloperResources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloperResources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="pots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theinterloper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="theInterloperResources" type="462c0819:PsiDirectoryNode" />
+              <item name="eng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="desktop-1.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="desktop-1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="desktop-1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="desktop-1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cardcrawl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="desktop-1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cardcrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="vfx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DefaultMod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="desktop-1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="desktop-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cardcrawl" type="462c0819:PsiDirectoryNode" />
+              <item name="vfx" type="462c0819:PsiDirectoryNode" />
+              <item name="combat" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554849498890" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/theInterloperResources/images/pots" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="theInterloper.patches" />
+      <recent name="theInterloper.variables" />
+      <recent name="theInterloper.cards" />
+      <recent name="theInterloper.ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\theinterloper\src\main\resources\theInterloperResources\images\pots" />
+      <recent name="D:\Projects\theInterloper\src\main\resources\theInterloperResources\images\512" />
+      <recent name="D:\" />
+      <recent name="D:\Projects\theInterloper\src\main\resources\theInterloperResources\images\1024" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1553802074096" text="RemoveSpecificPowerAction" recursive="true" caseInsensitive="true" type="JAVA" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5b20641-3a8c-490b-8ff3-757a5c00502c" name="Default Changelist" comment="" />
+      <created>1551220385393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551220385393</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.89165765" visible="true" weight="0.23294243" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.108342364" side_tool="true" weight="0.22334754" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.29252437" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.29252437" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.12686567" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/potion/snecko/body.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/potion/potion_l_liquid.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/potion/potion_l_hybrid.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/potion/potion_l_glass.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/cards/Exploit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/helpers/ImageMaster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9182">
+          <caret line="550" column="25" selection-start-line="550" selection-start-column="18" selection-end-line="550" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/localization/PotionStrings.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/cards/blue/BallLightning.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/relics/PrismaticShard.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/cards/blue/Capacitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/images/orbs/lightning.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultUncommonSkill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/helpers/CardLibrary.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15258">
+          <caret line="1233" column="16" selection-start-line="1233" selection-start-column="16" selection-end-line="1233" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/cards/DefaultUncommonAttack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/localization/UIStrings.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/workshop/content/646570/1605060445/ModTheSpire.jar!/com/evacipated/cardcrawl/modthespire/lib/Matcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="161" column="44" lean-forward="true" selection-start-line="161" selection-start-column="44" selection-end-line="161" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/monsters/exordium/Hexaghost.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="182" column="56" selection-start-line="182" selection-start-column="43" selection-end-line="182" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/patches/BottledPlaceholderField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/potions/LightningMarble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/relics/RefactoringTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Orb-Strings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Potion-Strings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Relic-Strings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/ui/panels/PotionPopUp.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="345" column="20" selection-start-line="345" selection-start-column="20" selection-end-line="345" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/patches/ToolTooltipTextPatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/patches/PotIsToolField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/patches/HeropowerField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/workshop/content/646570/1605833019/BaseMod.jar!/basemod/interfaces/EditKeywordsSubscriber.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/patches/ToolTooltipPatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/potions/AbstractPotion.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/dungeons/AbstractDungeon.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="133" column="30" lean-forward="true" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/characters/AbstractPlayer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="325" column="14" selection-start-line="325" selection-start-column="10" selection-end-line="325" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/core/CardCrawlGame.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/workshop/content/646570/1605833019/BaseMod.jar!/basemod/interfaces/PostCreateShopPotionSubscriber.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/core/EnergyManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding>
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1612#1613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/ui/panels/EnergyPanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/actions/UncommonPowerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/cards/DamageInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding>
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/cards/AbstractCard.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="956" column="36" lean-forward="true" selection-start-line="956" selection-start-column="36" selection-end-line="958" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Character-Strings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/theInterloperResources/localization/eng/InterloperMod-Card-Strings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/cards/Defend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/cards/AbstractInterloperCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/cards/Strike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/workshop/content/646570/1605833019/BaseMod.jar!/basemod/abstracts/CustomCard.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="162" column="29" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/actions/TargetAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="84" column="65" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/heropowers/AbstractHeropower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/workshop/content/646570/1605833019/BaseMod.jar!/basemod/BaseMod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="1741" column="48" selection-start-line="1741" selection-start-column="16" selection-end-line="1741" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/ui/Overlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2142">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/characters/TheInterloper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/theInterloper/InterloperMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="505" column="52" selection-start-line="505" selection-start-column="52" selection-end-line="505" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>InterloperMod</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20148148" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>StSLib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean package" />
+    <option value="clean run" />
+    <option value="clean build" />
+  </component>
+</project>

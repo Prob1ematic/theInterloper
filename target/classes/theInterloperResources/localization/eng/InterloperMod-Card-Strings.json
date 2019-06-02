@@ -1,0 +1,67 @@
+{
+  "theInterloper:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable."
+  },
+  "theInterloper:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !M! Flame Barrier."
+  },
+  "theInterloper:Exploit": {
+    "NAME": "Exploit",
+    "DESCRIPTION": "Expunge Vulnerability. NL Deal !D! for each expunged stack. "
+  },
+  "theInterloper:CodeReview": {
+    "NAME": "Code Review",
+    "DESCRIPTION": "At end of a turn apply debuff to enemy based on their intent."
+  },
+  "theInterloper:Exploit3": {
+    "NAME": "Exploit",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL (Deal X damage total.)"
+  },
+  "theInterloper:DefaultCommonPower": {
+    "NAME": "Hold Place",
+    "DESCRIPTION": "Gain !M! theinterloper:Keyword.",
+    "UPGRADE_DESCRIPTION": "Gain !M! theinterloper:Keywords."
+  },
+  "theInterloper:DefaultUncommonAttack": {
+    "NAME": "Big slap",
+    "DESCRIPTION": "Deal !D! Damage."
+  },
+  "theInterloper:DefaultUncommonSkill": {
+    "NAME": "A Better Defend",
+    "DESCRIPTION": "Gain !B! Plated Armor. Affected by Dexterity."
+  },
+  "theInterloper:DefaultUncommonPower": {
+    "NAME": "Weirdness",
+    "DESCRIPTION": "Gain X theinterloper:Keywords.",
+    "UPGRADE_DESCRIPTION": "Gain X +1 theinterloper:Keywords."
+  },
+  "theInterloper:DefaultRareAttack": {
+    "NAME": "TOUCH",
+    "DESCRIPTION": "Deal !D! Damage."
+  },
+  "theInterloper:DefaultRareSkill": {
+    "NAME": "For Each Loop x2",
+    "DESCRIPTION": "Apply !M! vulnerable to all enemies, 2 times.",
+    "UPGRADE_DESCRIPTION": "Apply !M! vulnerable to all enemies, 3 times."
+  },
+  "theInterloper:DefaultRarePower": {
+    "NAME": "In-Progress Form",
+    "DESCRIPTION": "At the start of your turn, play a TOUCH."
+  },
+  "theInterloper:LightningStorm": {
+    "NAME": "Lightning Storm",
+    "DESCRIPTION": "Deal !D! Damage to all enemies."
+  },
+  "theInterloper:DefaultSecondMagicNumberSkill": {
+    "NAME": "Cool 2 Number Card",
+    "DESCRIPTION": "Apply !M! vulnerable and poison to an enemy."
+  },
+  "theInterloper:OrbSkill": {
+    "NAME": "Get Orb",
+    "DESCRIPTION": "Channel 1 Default Orb."
+  }
+}
